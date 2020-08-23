@@ -1,0 +1,20 @@
+{
+    "name": "bs4snippets",
+    "displayName": "Bootstrap v4 Snippets",
+    "description": "Simple 'Bootstrap-v4' snippet generator by Abhishek Maira",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.48.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}

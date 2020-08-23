@@ -4,6 +4,10 @@
     "description": "Simple 'Bootstrap-v4' snippet generator",
     "version": "1.0.0",
     "publisher": "Abhishek Maira",
+    "bugs": {
+        "url": "https://github.com/AbhishekMaira10/vscode-bs4/issues",
+        "email": "abhishekmaira1999@gmail.com"
+      },
     "repository": {
         "type": "git",
         "url": "https://github.com/AbhishekMaira10/vscode-bs4"
@@ -29,5 +33,8 @@
                 "path": "./snippets/snippets.code-snippets"
             }
         ]
-    }
+    },
+    "dependencies": {
+        "npm": "^6.14.5"
+      }
 }

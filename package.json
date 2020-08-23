@@ -1,8 +1,14 @@
 {
     "name": "bs4snippets",
     "displayName": "Bootstrap v4 Snippets",
-    "description": "Simple 'Bootstrap-v4' snippet generator by Abhishek Maira",
+    "description": "Simple 'Bootstrap-v4' snippet generator",
     "version": "1.0.0",
+    "publisher": "Abhishek Maira",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/AbhishekMaira10/vscode-bs4"
+      },
+    "icon": "icon.png",
     "engines": {
         "vscode": "^1.48.0"
     },

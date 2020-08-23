@@ -1,20 +1,77 @@
-# bs4snippets README
+# Bootstrap 4 with CDN Boilerplate
 
-This is the README for your extension "bs4snippets". After writing up a brief description, we recommend including the following sections.
+<!-- markdownlint-disable MD037 MD024 -->
 
-## Features
+Ever been trying to start with a bootstrap template?
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+This is normally not an issue but I found it tedious with using `!` then add all CSS with font-awesome and jquery etc.
 
-For example if there is an image subfolder under your extension project workspace:
+This extension will solve the issue for you with a simple `!bcdn` + `TAB` and your up and running with a full template
 
-\!\[feature X\]\(images/feature-x.png\)
+The extension also supports [Bootswatch](https://bootswatch.com/) themes
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+![Branch master](https://img.shields.io/badge/branch-master-brightgreen.svg?style=flat-square) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/AbhishekMaira10/vscode-bs4/blob/master/LICENSE.md)
 
-## Requirements
+<p align="center">
+Show some love 💜 and Star ⭐️ the Repository to support the project.
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+![Gif](https://i.imgur.com/6RmNOwu.gif)
+
+## Shortcuts / Commands
+
+### Main Commands
+
+| **Command** | **Help Text **                                                                                    |
+| ----------- | ------------------------------------------------------------------------------------------------- |
+| !bcdn       | Creates an Bootstrap 4 starter template. With Jquery, popper.js and Font-Awesome 5                |
+| !bcdn5      | Creates an Bootstrap 5 starter template. With popper.js and Font-Awesome 5                        |
+| !bcss       | Creates an Bootstrap 4 starter template. Only with CSS (No Jquery) and Font-Awesome 5             |
+| !b3cdn      | Creates an Bootstrap 4 starter template. With Jquery, Font-Awesome 4.7                            |
+| !bcdnajax   | Creates an Bootstrap 4 starter template. With Jquery, popper.js and Font-Awesome 5 (Ajax support) |
+| !bcdnjs     | Creates all the script links for JS (Links only)                                                  |
+| !bcdncss    | Creates all the style links for CSS (Links only)                                                  |
+
+### Bootswatch Template variations
+
+| **Command**    | **Help Text **                                                    |
+| -------------- | ----------------------------------------------------------------- |
+| !bcdncerulean  | Creates an Bootstrap 4 Template with Cerulean Bootswatch Colors   |
+| !bcdncosmo     | Creates an Bootstrap 4 Template with Cosmo Bootswatch colors      |
+| !bcdncyborg    | Creates an Bootstrap 4 Template with Cyborg Bootswatch colors     |
+| !bcdndarkly    | Creates an Bootstrap 4 Template with Darkly Bootswatch colors     |
+| !bcdnflatly    | Creates an Bootstrap 4 Template with Flatly Bootswatch colors     |
+| !bcdnjournal   | Creates an Bootstrap 4 Template with Journal Bootswatch colors    |
+| !bcdnlitera    | Creates an Bootstrap 4 Template with Litera Bootswatch colors     |
+| !bcdnlumen     | Creates an Bootstrap 4 Template with Lumen Bootswatch colors      |
+| !bcdnlux       | Creates an Bootstrap 4 Template with Lux Bootswatch colors        |
+| !bcdnmateria   | Creates an Bootstrap 4 Template with Materia Bootswatch colors    |
+| !bcdnminty     | Creates an Bootstrap 4 Template with Minty Bootswatch colors      |
+| !bcdnpulse     | Creates an Bootstrap 4 Template with Pulse Bootswatch colors      |
+| !bcdnsandstone | Creates an Bootstrap 4 Template with Sandstone Bootswatch colors  |
+| !bcdnsimplex   | Creates an Bootstrap 4 Template with Simplex Bootswatch colors    |
+| !bcdnsketchy   | Creates an Bootstrap 4 Template with Sketchy Bootswatch colors    |
+| !bcdnslate     | Creates an Bootstrap 4 Template with Slate Bootswatch colors      |
+| !bcdnsolar     | Creates an Bootstrap 4 Template with solar Bootswatch colors      |
+| !bcdnspacelab  | Creates an Bootstrap 4 Template with Space Lab Bootswatch colors  |
+| !bcdnsuperhero | Creates an Bootstrap 4 Template with Super Hero Bootswatch colors |
+| !bcdnunited    | Creates an Bootstrap 4 Template with United Bootswatch colors     |
+| !bcdnyeti      | Creates an Bootstrap 4 Template with Yeti Bootswatch colors       |
+
+### Forms and misc Classes
+
+| Command      | Help Text                                      |
+| ------------ | ---------------------------------------------- |
+| !bsnav       | Default Navigation for Bootstrap               |
+| !bsnavc      | Class to Align Navigation Center               |
+| !bsnavr      | Class to Align Navigation Right                |
+| !bsnavtab    | Class to Use Tab Style Navigation              |
+| !bsnavsticky | Default Sticky Navigation for Bootstrap        |
+| !bsnavpill   | Class to Use Pill Style Navigation             |
+| !bsnavdd     | Default Dropdown Navigation (Requires Jquery)  |
+| !bsnavj      | Class to Justify Navigation                    |
+| !bfg         | Bootstrap Form Group parent element            |
+| !bfc         | Bootstrap Form Control                         |
+| !bsform      | Bootstrap form with input, select and textarea |
 
 ## Extension Settings
 
@@ -29,37 +86,27 @@ This extension contributes the following settings:
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+No known issues so far.
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
+| 🚀  | New Feature |
+| --- | ----------- |
+| ✅  | Minor Fix   |
+| 🐛  | Bugfix      |
 
-### 1.0.0
+### [1.0.0]
 
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+Initial release of Bootstrap 4 with CDN Boilerplate 😍 🚀
 
 -----------------------------------------------------------------------------------------------------------
 
-## Working with Markdown
+## :label: Versioning
 
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+I've used [Semantic Versioning 2.0.0](https://semver.org/) for versioning throughout the project.
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+## :question: Queries / Bugs
 
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+If you got any queries or found a bug, open an [Issue](https://github.com/AbhishekMaira10/vscode-bs4/issues/new) or ping me over on [abhishekmaira1999@gmail.com](mailto:abhishekmaira1999@gmail.com)
 
 **Enjoy!**
